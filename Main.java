@@ -31,5 +31,9 @@ public class Main {
             System.out.println(number + " has two digits.");
         }
 
+        if (number < -9 && number > -100) {
+            System.out.println(number + " has two digits.");
+        }
+
     }
 }
